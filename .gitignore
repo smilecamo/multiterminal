@@ -1,0 +1,5 @@
+cnode/dist/
+cnode/.temp/
+cnode/.rn_temp/
+cnode/node_modules/
+cnode/.DS_Store
