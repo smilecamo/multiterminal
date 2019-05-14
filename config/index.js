@@ -1,3 +1,6 @@
+// eslint-disable-next-line import/no-commonjs
+var path = require('path')
+
 const config = {
   projectName: 'zhihu',
   date: '2019-5-13',
@@ -31,6 +34,10 @@ const config = {
     ],
     options: {
     }
+  },
+  alias: {
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
+    '@/utils': path.resolve(__dirname, '..', 'src/utils'),
   },
   weapp: {
     module: {
