@@ -38,6 +38,9 @@ const config = {
   alias: {
     '@/components': path.resolve(__dirname, '..', 'src/components'),
     '@/utils': path.resolve(__dirname, '..', 'src/utils'),
+    '@/image': path.resolve(__dirname, '..', 'src/assets/image'),
+    '@/reducers': path.resolve(__dirname, '..', 'src/reducers'),
+    '@/actions': path.resolve(__dirname, '..', 'src/actions'),
   },
   weapp: {
     module: {
@@ -77,6 +80,7 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
+    esnextModules: ['taro-ui'],
     module: {
       postcss: {
         autoprefixer: {
